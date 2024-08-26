@@ -19,9 +19,8 @@ func main() {
 	}
 
 	/**
-	 * The keyword select lets you wait on multiple channel operations. Here
+	 * select{} lets you wait on multiple channel operations. Here
 	 * (b/c it's empty) it blocks the current goroutine, so it isn't blocked.
 	 */
-
 	select {}
 }
